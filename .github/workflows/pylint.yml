@@ -19,3 +19,8 @@ jobs:
       - name: Run pylint
         run: |
           pylint --fail-under=8 $(git ls-files '*.py')
+
+      - name: Debug python files
+        run: |
+         echo "Python files found:"
+         git ls-files '*.py'
