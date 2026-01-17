@@ -8,6 +8,7 @@ CONSTANT_VALUE = 10
 def main():
     """Main function to print the constant value."""
     print(CONSTANT_VALUE)
+    
 
 
 
